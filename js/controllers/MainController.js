@@ -6,7 +6,7 @@ app.controller('MainController', ['$scope', function($scope) {
     name: 'The Book of Trees', 
     price: 19, 
     pubdate: new Date('2014', '03', '08'), 
-    cover: 'img/the-book-of-trees.jpg',
+    cover: 'img/bookOfTrees.jpg',
     likes: 0,
     dislikes: 0
   }, 
@@ -14,7 +14,7 @@ app.controller('MainController', ['$scope', function($scope) {
     name: 'Program or be Programmed', 
     price: 8, 
     pubdate: new Date('2013', '08', '01'), 
-    cover: 'img/program-or-be-programmed.jpg' ,
+    cover: 'img/programOrProgrammed.jpeg' ,
     likes: 0,
     dislikes:0
   },
@@ -22,7 +22,7 @@ app.controller('MainController', ['$scope', function($scope) {
     name: 'To Kill a Mockingbird', 
     price: 13, 
     pubdate: new Date('2015', '08', '02'), 
-    cover: 'img/program-or-be-programmed.jpg',
+    cover: 'img/toKillAMockingbird.jpeg',
     likes: 0,
     dislikes: 0 
   },
@@ -30,7 +30,7 @@ app.controller('MainController', ['$scope', function($scope) {
     name: 'The Alchemist', 
     price: 20, 
     pubdate: new Date('2017', '10', '01'), 
-    cover: 'img/program-or-be-programmed.jpg',
+    cover: 'img/theAlchemist.jpg',
     likes: 0,
     dislikes:0
   }
